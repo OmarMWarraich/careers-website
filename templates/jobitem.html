@@ -6,6 +6,6 @@
       {% if 'salary' in job %}
         <h6 class="card-subtitle mb-2 text-muted">Salary: {{job['salary']}} </h6>
       {% endif %}
-      <button class="btn btn-primary btn-lg">Apply</button>
+      <a href="mailto:earthling5@outlook.com?subject=Application for {{job['title']}}" class="btn btn-primary btn-lg">Apply</a>
     </div>
 </div>
